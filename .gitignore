@@ -1,0 +1,10 @@
+# 1. Skapa en .gitignore för att ignorera testfiler och binärer
+echo "cad_test" > .gitignore
+echo "data.csv" >> .gitignore
+
+# 2. Lägg till .gitignore och källkoden i git
+git add .gitignore cad_geometri.c
+
+# 3. Gör en ny commit och skicka upp till GitHub
+git commit -m "Add .gitignore and ensure clean source-only repository structure"
+git push
